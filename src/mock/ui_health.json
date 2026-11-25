@@ -1,0 +1,46 @@
+{
+  "last_night": {
+    "run_id": "5745b4a6-8e12-4d56-a94b-0123456789ab",
+    "workflow": "SUP_FW-A_Passage_de_nuit",
+    "ok": true,
+    "started_at": "2026-08-14T02:00:03Z",
+    "ended_at": "2026-08-14T02:04:11Z",
+    "duration_sec": 248,
+    "centres_processed": 104,
+    "days_recomputed": 420,
+    "signals_detected": 14,
+    "events_new": 3,
+    "events_updated": 2,
+    "status": "SUCCÈS"
+  },
+  "ingestion_lag_min": 12,
+  "pages_in_error": 0,
+  "last_deliveries": [
+    {
+      "channel": "email_digest",
+      "recipient": "nabil.direction@ummc.ma",
+      "sent_at": "2026-08-14T08:00:15Z",
+      "ok": true,
+      "events_count": 5
+    },
+    {
+      "channel": "sms_urgent",
+      "recipient": "coord.oriental@ummc.ma",
+      "sent_at": "2026-08-14T02:05:30Z",
+      "ok": true,
+      "events_count": 1
+    },
+    {
+      "channel": "email_digest",
+      "recipient": "coord.draa@ummc.ma",
+      "sent_at": "2026-08-14T08:00:22Z",
+      "ok": true,
+      "events_count": 2
+    }
+  ],
+  "context_sync": {
+    "weather_last_sync": "2026-08-14T03:15:00Z",
+    "weather_status": "OK (104/104 centres à jour)",
+    "souks_verified_count": 168
+  }
+}

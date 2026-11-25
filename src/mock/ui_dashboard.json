@@ -1,0 +1,15 @@
+{
+  "day": "2026-08-13",
+  "centres_actifs": 98,
+  "centres_total": 104,
+  "pec_total": 2140,
+  "pec_median_centre": 21.0,
+  "events_open": 5,
+  "events_urgent": 2,
+  "attention": 26,
+  "last_night": {
+    "ok": true,
+    "run_id": "5745b4a6-8e12-4d56-a94b-0123456789ab",
+    "ended_at": "2026-08-14T02:04:11Z"
+  }
+}
