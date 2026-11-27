@@ -1,0 +1,173 @@
+{
+  "description": "Échantillon de test du second avis A3. Cas entièrement fictifs, rédigés pour la démonstration : aucun patient réel, aucune consultation réelle. Le second avis ne contient ni traitement, ni dose, ni consigne : la décision reste réservée au médecin.",
+  "model": "google/gemma-4-31B-it",
+  "cases": [
+    {
+      "id": "ECH-001",
+      "version_key": "ech-001-v1",
+      "centre_name": "UM1 Tagounite",
+      "age": 67,
+      "sexe": "Homme",
+      "motif": "Douleur thoracique depuis 2 heures",
+      "recu_le": "2026-08-12T10:42:00+01:00",
+      "review_priority": "CRITICAL",
+      "output": {
+        "summary": "Homme de 67 ans, fumeur, diabétique connu, consultant pour une douleur thoracique constrictive apparue au repos il y a environ 2 heures, irradiant vers le bras gauche, avec sueurs (Anamnèse). Tension 158/94, fréquence cardiaque 104 (Constantes). Pas d'ECG disponible dans le dossier.",
+        "differentials": [
+          {
+            "hypothesis": "Syndrome coronarien aigu",
+            "supportingEvidence": ["Douleur constrictive au repos irradiant au bras gauche (Anamnèse)", "Sueurs associées (Anamnèse)", "Âge, tabagisme et diabète (Antécédents)"],
+            "againstEvidence": ["Aucun tracé ECG pour confirmer ou infirmer (Examens complémentaires)"],
+            "likelihood": "high"
+          },
+          {
+            "hypothesis": "Dissection aortique",
+            "supportingEvidence": ["Douleur thoracique brutale chez un patient hypertendu (Constantes)"],
+            "againstEvidence": ["Pas de douleur dorsale migratrice décrite (Anamnèse)", "Asymétrie tensionnelle non recherchée (Examen)"],
+            "likelihood": "low"
+          },
+          {
+            "hypothesis": "Douleur pariétale",
+            "supportingEvidence": [],
+            "againstEvidence": ["Douleur non reproduite à la palpation (Examen)", "Signes généraux associés (Anamnèse)"],
+            "likelihood": "low"
+          }
+        ],
+        "redFlags": ["Douleur thoracique au repos de plus de 20 minutes chez un patient à haut risque cardiovasculaire", "Tachycardie et sueurs"],
+        "suggestedWorkup": ["ECG 12 dérivations", "Prise de tension aux deux bras", "Avis cardiologique par télé-expertise"],
+        "dataGaps": ["Absence d'ECG", "Saturation en oxygène non renseignée", "Heure exacte de début de la douleur imprécise"],
+        "confidence": "moderate"
+      }
+    },
+    {
+      "id": "ECH-002",
+      "version_key": "ech-002-v1",
+      "centre_name": "UM1 Imilchil",
+      "age": 4,
+      "sexe": "Fille",
+      "motif": "Fièvre et diarrhée depuis 3 jours",
+      "recu_le": "2026-08-12T11:05:00+01:00",
+      "review_priority": "HIGH",
+      "output": {
+        "summary": "Enfant de 4 ans présentant une fièvre à 39,2 °C (Constantes) et des selles liquides 6 à 8 fois par jour depuis 3 jours (Anamnèse). La mère rapporte une baisse des urines et une soif importante (Anamnèse). Pli cutané persistant noté (Examen).",
+        "differentials": [
+          {
+            "hypothesis": "Gastro-entérite aiguë avec déshydratation modérée",
+            "supportingEvidence": ["Diarrhée fréquente depuis 3 jours (Anamnèse)", "Pli cutané persistant et soif (Examen)", "Diurèse diminuée (Anamnèse)"],
+            "againstEvidence": [],
+            "likelihood": "high"
+          },
+          {
+            "hypothesis": "Infection urinaire fébrile",
+            "supportingEvidence": ["Fièvre élevée (Constantes)"],
+            "againstEvidence": ["Tableau digestif dominant (Anamnèse)"],
+            "likelihood": "low"
+          }
+        ],
+        "redFlags": ["Signes de déshydratation chez un jeune enfant", "Fièvre persistante au troisième jour"],
+        "suggestedWorkup": ["Pesée et comparaison au poids antérieur", "Recherche de sang dans les selles", "Bandelette urinaire"],
+        "dataGaps": ["Poids actuel non renseigné", "État de conscience et comportement non décrits"],
+        "confidence": "moderate"
+      }
+    },
+    {
+      "id": "ECH-003",
+      "version_key": "ech-003-v1",
+      "centre_name": "UM1 Talsint",
+      "age": 29,
+      "sexe": "Femme",
+      "motif": "Céphalées et œdèmes, grossesse de 33 semaines",
+      "recu_le": "2026-08-11T09:18:00+01:00",
+      "review_priority": "CRITICAL",
+      "output": {
+        "summary": "Femme de 29 ans, enceinte de 33 semaines d'aménorrhée, consultant pour des céphalées depuis la veille et des œdèmes des chevilles (Anamnèse). Tension 152/101 (Constantes). Pas de bandelette urinaire au dossier.",
+        "differentials": [
+          {
+            "hypothesis": "Prééclampsie",
+            "supportingEvidence": ["Tension élevée au troisième trimestre (Constantes)", "Céphalées récentes (Anamnèse)", "Œdèmes (Examen)"],
+            "againstEvidence": ["Protéinurie non mesurée (Examens complémentaires)"],
+            "likelihood": "high"
+          },
+          {
+            "hypothesis": "Hypertension gestationnelle isolée",
+            "supportingEvidence": ["Tension élevée sans autre anomalie documentée (Constantes)"],
+            "againstEvidence": ["Présence de céphalées (Anamnèse)"],
+            "likelihood": "moderate"
+          }
+        ],
+        "redFlags": ["Tension diastolique supérieure à 100 pendant la grossesse", "Céphalées chez une femme enceinte hypertendue"],
+        "suggestedWorkup": ["Bandelette urinaire (protéines)", "Contrôle de la tension après repos", "Avis obstétrical par télé-expertise"],
+        "dataGaps": ["Troubles visuels non recherchés", "Mouvements fœtaux non renseignés", "Suivi prénatal antérieur absent du dossier"],
+        "confidence": "moderate"
+      }
+    },
+    {
+      "id": "ECH-004",
+      "version_key": "ech-004-v1",
+      "centre_name": "UM1 Smimou",
+      "age": 54,
+      "sexe": "Femme",
+      "motif": "Toux depuis 5 semaines et amaigrissement",
+      "recu_le": "2026-08-10T14:31:00+01:00",
+      "review_priority": "MEDIUM",
+      "output": {
+        "summary": "Femme de 54 ans, toux productive depuis 5 semaines, sueurs nocturnes et perte de poids estimée à 4 kg (Anamnèse). Température 37,9 °C (Constantes). Contact familial avec une toux chronique signalé (Anamnèse).",
+        "differentials": [
+          {
+            "hypothesis": "Tuberculose pulmonaire",
+            "supportingEvidence": ["Toux de plus de 2 semaines (Anamnèse)", "Sueurs nocturnes et amaigrissement (Anamnèse)", "Contact familial symptomatique (Anamnèse)"],
+            "againstEvidence": ["Aucune hémoptysie rapportée (Anamnèse)"],
+            "likelihood": "high"
+          },
+          {
+            "hypothesis": "Pneumopathie bactérienne traînante",
+            "supportingEvidence": ["Toux productive et fébricule (Constantes)"],
+            "againstEvidence": ["Durée longue et altération de l'état général (Anamnèse)"],
+            "likelihood": "moderate"
+          },
+          {
+            "hypothesis": "Cancer bronchique",
+            "supportingEvidence": ["Amaigrissement (Anamnèse)"],
+            "againstEvidence": ["Pas de tabagisme déclaré (Antécédents)"],
+            "likelihood": "low"
+          }
+        ],
+        "redFlags": ["Amaigrissement inexpliqué"],
+        "suggestedWorkup": ["Examen des crachats", "Radiographie thoracique au centre de référence", "Dépistage de l'entourage selon le protocole national"],
+        "dataGaps": ["Poids antérieur non documenté", "Statut sérologique inconnu"],
+        "confidence": "moderate"
+      }
+    },
+    {
+      "id": "ECH-005",
+      "version_key": "ech-005-v1",
+      "centre_name": "UM1 Ben Ahmed",
+      "age": 38,
+      "sexe": "Homme",
+      "motif": "Lombalgie après effort",
+      "recu_le": "2026-08-10T16:02:00+01:00",
+      "review_priority": "ROUTINE",
+      "output": {
+        "summary": "Homme de 38 ans, agriculteur, douleur lombaire basse apparue après le port d'une charge il y a 4 jours (Anamnèse). Pas de fièvre (Constantes). Pas d'irradiation dans les jambes ni de trouble urinaire (Anamnèse). Contracture paravertébrale à l'examen (Examen).",
+        "differentials": [
+          {
+            "hypothesis": "Lombalgie commune mécanique",
+            "supportingEvidence": ["Début après effort de port de charge (Anamnèse)", "Contracture paravertébrale (Examen)", "Absence de fièvre (Constantes)"],
+            "againstEvidence": [],
+            "likelihood": "high"
+          },
+          {
+            "hypothesis": "Hernie discale",
+            "supportingEvidence": ["Effort de soulèvement (Anamnèse)"],
+            "againstEvidence": ["Pas de douleur radiculaire (Anamnèse)", "Examen neurologique normal (Examen)"],
+            "likelihood": "low"
+          }
+        ],
+        "redFlags": [],
+        "suggestedWorkup": ["Réévaluation clinique si persistance au-delà de 4 à 6 semaines"],
+        "dataGaps": ["Antécédents de lombalgie non précisés"],
+        "confidence": "high"
+      }
+    }
+  ]
+}

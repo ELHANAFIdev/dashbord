@@ -1,0 +1,44 @@
+[
+  {
+    "mois": "2026-01",
+    "consultations_n": 36568,
+    "consultations_n_1": 28794,
+    "variation_pct": 27
+  },
+  {
+    "mois": "2026-02",
+    "consultations_n": 29999,
+    "consultations_n_1": 22900,
+    "variation_pct": 31
+  },
+  {
+    "mois": "2026-03",
+    "consultations_n": 33716,
+    "consultations_n_1": 24791,
+    "variation_pct": 36
+  },
+  {
+    "mois": "2026-04",
+    "consultations_n": 38612,
+    "consultations_n_1": 30890,
+    "variation_pct": 25
+  },
+  {
+    "mois": "2026-05",
+    "consultations_n": 36845,
+    "consultations_n_1": 28562,
+    "variation_pct": 29
+  },
+  {
+    "mois": "2026-06",
+    "consultations_n": 40054,
+    "consultations_n_1": 31292,
+    "variation_pct": 28
+  },
+  {
+    "mois": "2026-07",
+    "consultations_n": 42162,
+    "consultations_n_1": 33198,
+    "variation_pct": 27
+  }
+]

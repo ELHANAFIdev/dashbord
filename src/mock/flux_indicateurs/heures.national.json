@@ -1,0 +1,548 @@
+[
+  {
+    "jour_semaine": 1,
+    "heure": 7,
+    "consultations": 2301,
+    "heures_actives": 1715,
+    "consultations_par_heure_active": 1.34
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 8,
+    "consultations": 7883,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.68
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 9,
+    "consultations": 11450,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.43
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 10,
+    "consultations": 12482,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.65
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 11,
+    "consultations": 11580,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.46
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 12,
+    "consultations": 9141,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.94
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 13,
+    "consultations": 5274,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.12
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 14,
+    "consultations": 6499,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.38
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 15,
+    "consultations": 7283,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.55
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 16,
+    "consultations": 5656,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.2
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 17,
+    "consultations": 3232,
+    "heures_actives": 3430,
+    "consultations_par_heure_active": 0.94
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 18,
+    "consultations": 1236,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 1.26
+  },
+  {
+    "jour_semaine": 1,
+    "heure": 19,
+    "consultations": 372,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 0.38
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 7,
+    "consultations": 2079,
+    "heures_actives": 1715,
+    "consultations_par_heure_active": 1.21
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 8,
+    "consultations": 7379,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.57
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 9,
+    "consultations": 10972,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.33
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 10,
+    "consultations": 11596,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.47
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 11,
+    "consultations": 10733,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.28
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 12,
+    "consultations": 8158,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.73
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 13,
+    "consultations": 4775,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.02
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 14,
+    "consultations": 5666,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.2
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 15,
+    "consultations": 6508,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.38
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 16,
+    "consultations": 4980,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.06
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 17,
+    "consultations": 3081,
+    "heures_actives": 3430,
+    "consultations_par_heure_active": 0.9
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 18,
+    "consultations": 1168,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 1.19
+  },
+  {
+    "jour_semaine": 2,
+    "heure": 19,
+    "consultations": 355,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 0.36
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 7,
+    "consultations": 2096,
+    "heures_actives": 1715,
+    "consultations_par_heure_active": 1.22
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 8,
+    "consultations": 7202,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.53
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 9,
+    "consultations": 10256,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.18
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 10,
+    "consultations": 11136,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.37
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 11,
+    "consultations": 10424,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.22
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 12,
+    "consultations": 7952,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.69
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 13,
+    "consultations": 4653,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 0.99
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 14,
+    "consultations": 5680,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.21
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 15,
+    "consultations": 6453,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.37
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 16,
+    "consultations": 5040,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.07
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 17,
+    "consultations": 3031,
+    "heures_actives": 3430,
+    "consultations_par_heure_active": 0.88
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 18,
+    "consultations": 1155,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 1.18
+  },
+  {
+    "jour_semaine": 3,
+    "heure": 19,
+    "consultations": 330,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 0.34
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 7,
+    "consultations": 1962,
+    "heures_actives": 1715,
+    "consultations_par_heure_active": 1.14
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 8,
+    "consultations": 6982,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.48
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 9,
+    "consultations": 9983,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.12
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 10,
+    "consultations": 11426,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.43
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 11,
+    "consultations": 10169,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.16
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 12,
+    "consultations": 7607,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.62
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 13,
+    "consultations": 4568,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 0.97
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 14,
+    "consultations": 5473,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.16
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 15,
+    "consultations": 6283,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.34
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 16,
+    "consultations": 4999,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.06
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 17,
+    "consultations": 2851,
+    "heures_actives": 3430,
+    "consultations_par_heure_active": 0.83
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 18,
+    "consultations": 1105,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 1.13
+  },
+  {
+    "jour_semaine": 4,
+    "heure": 19,
+    "consultations": 330,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 0.34
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 7,
+    "consultations": 1871,
+    "heures_actives": 1715,
+    "consultations_par_heure_active": 1.09
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 8,
+    "consultations": 6616,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.41
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 9,
+    "consultations": 9806,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.08
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 10,
+    "consultations": 10223,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.17
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 11,
+    "consultations": 9227,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.96
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 12,
+    "consultations": 7529,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.6
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 13,
+    "consultations": 4549,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 0.97
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 14,
+    "consultations": 5327,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.13
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 15,
+    "consultations": 5781,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.23
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 16,
+    "consultations": 4581,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 0.97
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 17,
+    "consultations": 2707,
+    "heures_actives": 3430,
+    "consultations_par_heure_active": 0.79
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 18,
+    "consultations": 1052,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 1.07
+  },
+  {
+    "jour_semaine": 5,
+    "heure": 19,
+    "consultations": 315,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 0.32
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 7,
+    "consultations": 1848,
+    "heures_actives": 1715,
+    "consultations_par_heure_active": 1.08
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 8,
+    "consultations": 6336,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.35
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 9,
+    "consultations": 9588,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.04
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 10,
+    "consultations": 10162,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 2.16
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 11,
+    "consultations": 9091,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.93
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 12,
+    "consultations": 7058,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.5
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 13,
+    "consultations": 4388,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 0.93
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 14,
+    "consultations": 5136,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.09
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 15,
+    "consultations": 5782,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 1.23
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 16,
+    "consultations": 4655,
+    "heures_actives": 4704,
+    "consultations_par_heure_active": 0.99
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 17,
+    "consultations": 2673,
+    "heures_actives": 3430,
+    "consultations_par_heure_active": 0.78
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 18,
+    "consultations": 1041,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 1.06
+  },
+  {
+    "jour_semaine": 6,
+    "heure": 19,
+    "consultations": 305,
+    "heures_actives": 980,
+    "consultations_par_heure_active": 0.31
+  }
+]

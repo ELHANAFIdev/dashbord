@@ -1,0 +1,56 @@
+[
+  {
+    "niveau": "Marrakech-Safi",
+    "patients": 51347,
+    "patients_revenus": 16072,
+    "taux_retour_pct": 31.3
+  },
+  {
+    "niveau": "Béni Mellal-Khénifra",
+    "patients": 36092,
+    "patients_revenus": 9059,
+    "taux_retour_pct": 25.1
+  },
+  {
+    "niveau": "Tanger-Tétouan-Al Hoceïma",
+    "patients": 25290,
+    "patients_revenus": 7258,
+    "taux_retour_pct": 28.7
+  },
+  {
+    "niveau": "Drâa-Tafilalet",
+    "patients": 39416,
+    "patients_revenus": 9972,
+    "taux_retour_pct": 25.3
+  },
+  {
+    "niveau": "Souss-Massa",
+    "patients": 30601,
+    "patients_revenus": 8109,
+    "taux_retour_pct": 26.5
+  },
+  {
+    "niveau": "Rabat-Salé-Kénitra",
+    "patients": 16352,
+    "patients_revenus": 4726,
+    "taux_retour_pct": 28.9
+  },
+  {
+    "niveau": "Casablanca-Settat",
+    "patients": 15434,
+    "patients_revenus": 4599,
+    "taux_retour_pct": 29.8
+  },
+  {
+    "niveau": "L'Oriental",
+    "patients": 24381,
+    "patients_revenus": 6510,
+    "taux_retour_pct": 26.7
+  },
+  {
+    "niveau": "Fès-Meknès",
+    "patients": 20976,
+    "patients_revenus": 7258,
+    "taux_retour_pct": 34.6
+  }
+]

@@ -1,46 +1,305 @@
 {
-  "last_night": {
-    "run_id": "5745b4a6-8e12-4d56-a94b-0123456789ab",
-    "workflow": "SUP_FW-A_Passage_de_nuit",
-    "ok": true,
-    "started_at": "2026-08-14T02:00:03Z",
-    "ended_at": "2026-08-14T02:04:11Z",
-    "duration_sec": 248,
-    "centres_processed": 104,
-    "days_recomputed": 420,
-    "signals_detected": 14,
-    "events_new": 3,
-    "events_updated": 2,
-    "status": "SUCCÈS"
-  },
-  "ingestion_lag_min": 12,
-  "pages_in_error": 0,
-  "last_deliveries": [
+  "data_last_day": "2026-08-13",
+  "nights": [
     {
-      "channel": "email_digest",
-      "recipient": "nabil.direction@ummc.ma",
-      "sent_at": "2026-08-14T08:00:15Z",
+      "run_id": "nuit-2026-08-13",
+      "started_at": "2026-08-13T02:00:05+01:00",
+      "ended_at": "2026-08-13T02:03:48+01:00",
       "ok": true,
-      "events_count": 5
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 108
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 12
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": true,
+          "duree_s": 76
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": true,
+          "duree_s": 22
+        },
+        {
+          "etape": "Notifications",
+          "ok": true,
+          "duree_s": 5
+        }
+      ]
     },
     {
-      "channel": "sms_urgent",
-      "recipient": "coord.oriental@ummc.ma",
-      "sent_at": "2026-08-14T02:05:30Z",
+      "run_id": "nuit-2026-08-12",
+      "started_at": "2026-08-12T02:00:04+01:00",
+      "ended_at": "2026-08-12T02:04:06+01:00",
       "ok": true,
-      "events_count": 1
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 128
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 21
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": true,
+          "duree_s": 66
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": true,
+          "duree_s": 22
+        },
+        {
+          "etape": "Notifications",
+          "ok": true,
+          "duree_s": 5
+        }
+      ]
     },
     {
-      "channel": "email_digest",
-      "recipient": "coord.draa@ummc.ma",
-      "sent_at": "2026-08-14T08:00:22Z",
+      "run_id": "nuit-2026-08-11",
+      "started_at": "2026-08-11T02:00:05+01:00",
+      "ended_at": "2026-08-11T02:03:54+01:00",
       "ok": true,
-      "events_count": 2
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 110
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 20
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": true,
+          "duree_s": 66
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": true,
+          "duree_s": 28
+        },
+        {
+          "etape": "Notifications",
+          "ok": true,
+          "duree_s": 5
+        }
+      ]
+    },
+    {
+      "run_id": "nuit-2026-08-10",
+      "started_at": "2026-08-10T02:00:07+01:00",
+      "ended_at": "2026-08-10T02:04:29+01:00",
+      "ok": true,
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 137
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 19
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": true,
+          "duree_s": 73
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": true,
+          "duree_s": 29
+        },
+        {
+          "etape": "Notifications",
+          "ok": true,
+          "duree_s": 4
+        }
+      ]
+    },
+    {
+      "run_id": "nuit-2026-08-09",
+      "started_at": "2026-08-09T02:00:07+01:00",
+      "ended_at": "2026-08-09T02:03:18+01:00",
+      "ok": false,
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 139
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 12
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": false,
+          "duree_s": 40
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": false,
+          "duree_s": 0
+        },
+        {
+          "etape": "Notifications",
+          "ok": false,
+          "duree_s": 0
+        }
+      ]
+    },
+    {
+      "run_id": "nuit-2026-08-08",
+      "started_at": "2026-08-08T02:00:06+01:00",
+      "ended_at": "2026-08-08T02:03:31+01:00",
+      "ok": true,
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 109
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 16
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": true,
+          "duree_s": 41
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": true,
+          "duree_s": 34
+        },
+        {
+          "etape": "Notifications",
+          "ok": true,
+          "duree_s": 5
+        }
+      ]
+    },
+    {
+      "run_id": "nuit-2026-08-07",
+      "started_at": "2026-08-07T02:00:04+01:00",
+      "ended_at": "2026-08-07T02:04:09+01:00",
+      "ok": true,
+      "steps": [
+        {
+          "etape": "Ingestion VisioStation",
+          "ok": true,
+          "duree_s": 140
+        },
+        {
+          "etape": "Contexte (météo, calendrier, souks)",
+          "ok": true,
+          "duree_s": 27
+        },
+        {
+          "etape": "Calcul des séries et catégories",
+          "ok": true,
+          "duree_s": 58
+        },
+        {
+          "etape": "Détection des signaux",
+          "ok": true,
+          "duree_s": 16
+        },
+        {
+          "etape": "Notifications",
+          "ok": true,
+          "duree_s": 4
+        }
+      ]
     }
   ],
-  "context_sync": {
-    "weather_last_sync": "2026-08-14T03:15:00Z",
-    "weather_status": "OK (104/104 centres à jour)",
-    "souks_verified_count": 168
-  }
+  "last_deliveries": [
+    {
+      "channel": "courriel",
+      "recipient": "direction@ummc.example",
+      "sent_at": "2026-08-13T08:00:12+01:00",
+      "ok": true,
+      "event_id": null
+    },
+    {
+      "channel": "sms",
+      "recipient": "coordination-oriental@ummc.example",
+      "sent_at": "2026-08-13T02:05:31+01:00",
+      "ok": true,
+      "event_id": 5004
+    },
+    {
+      "channel": "courriel",
+      "recipient": "coordination-draa@ummc.example",
+      "sent_at": "2026-08-13T08:00:14+01:00",
+      "ok": true,
+      "event_id": null
+    },
+    {
+      "channel": "sms",
+      "recipient": "coordination-souss@ummc.example",
+      "sent_at": "2026-08-12T02:05:02+01:00",
+      "ok": false,
+      "event_id": 5004
+    },
+    {
+      "channel": "courriel",
+      "recipient": "medecin-referent@ummc.example",
+      "sent_at": "2026-08-12T08:00:09+01:00",
+      "ok": true,
+      "event_id": null
+    }
+  ],
+  "context_loads": [
+    {
+      "dataset": "Météo quotidienne",
+      "loaded_at": "2026-08-13T01:40:00+01:00",
+      "n_rows": 700,
+      "status": "ok"
+    },
+    {
+      "dataset": "Calendrier (fériés, vacances)",
+      "loaded_at": "2026-08-01T01:30:00+01:00",
+      "n_rows": 412,
+      "status": "ok"
+    },
+    {
+      "dataset": "Souks hebdomadaires",
+      "loaded_at": "2026-07-15T10:12:00+01:00",
+      "n_rows": 100,
+      "status": "ok"
+    },
+    {
+      "dataset": "Population (RGPH 2024)",
+      "loaded_at": "2026-06-02T09:00:00+01:00",
+      "n_rows": 49,
+      "status": "ok"
+    },
+    {
+      "dataset": "Prévisions météo",
+      "loaded_at": "2026-08-12T01:40:00+01:00",
+      "n_rows": 1400,
+      "status": "en retard"
+    }
+  ]
 }

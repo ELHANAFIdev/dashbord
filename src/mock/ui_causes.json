@@ -1,0 +1,443 @@
+[
+  {
+    "code": "1.1",
+    "famille": "Calendrier",
+    "libelle": "Jour férié civil",
+    "effet": "baisse à 0",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "1.2",
+    "famille": "Calendrier",
+    "libelle": "Fête religieuse ou sa veille",
+    "effet": "baisse à 0 ; veille partielle",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "1.3",
+    "famille": "Calendrier",
+    "libelle": "Ramadan",
+    "effet": "baisse modérée",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "1.4",
+    "famille": "Calendrier",
+    "libelle": "Lendemain de fête, pont (rattrapage)",
+    "effet": "baisse ou hausse",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "1.5",
+    "famille": "Calendrier",
+    "libelle": "Jour du souk hebdomadaire",
+    "effet": "hausse au souk, baisse autour",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "1.6",
+    "famille": "Calendrier",
+    "libelle": "Moussem, fête locale, saison des mariages",
+    "effet": "variable",
+    "portee": "unité / province",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "1.7",
+    "famille": "Calendrier",
+    "libelle": "Vacances scolaires",
+    "effet": "variable",
+    "portee": "national",
+    "donnees": "calendrier",
+    "detection_auto": true
+  },
+  {
+    "code": "1.8",
+    "famille": "Calendrier",
+    "libelle": "Rentrée scolaire, examens (certificats)",
+    "effet": "hausse",
+    "portee": "national",
+    "donnees": "calendrier",
+    "detection_auto": false
+  },
+  {
+    "code": "1.9",
+    "famille": "Calendrier",
+    "libelle": "Retour des Marocains résidant à l'étranger (été)",
+    "effet": "hausse",
+    "portee": "province",
+    "donnees": "calendrier",
+    "detection_auto": true
+  },
+  {
+    "code": "1.10",
+    "famille": "Calendrier",
+    "libelle": "Fin de mois, versement des aides sociales",
+    "effet": "variable",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "1.11",
+    "famille": "Calendrier",
+    "libelle": "Jour de la semaine",
+    "effet": "variable",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "2.1",
+    "famille": "Environnement",
+    "libelle": "Neige, routes coupées",
+    "effet": "baisse forte",
+    "portee": "province",
+    "donnees": "météo",
+    "detection_auto": true
+  },
+  {
+    "code": "2.2",
+    "famille": "Environnement",
+    "libelle": "Fortes pluies, crues",
+    "effet": "baisse forte",
+    "portee": "province",
+    "donnees": "météo",
+    "detection_auto": true
+  },
+  {
+    "code": "2.3",
+    "famille": "Environnement",
+    "libelle": "Chaleur extrême",
+    "effet": "baisse",
+    "portee": "province",
+    "donnees": "météo",
+    "detection_auto": true
+  },
+  {
+    "code": "2.4",
+    "famille": "Environnement",
+    "libelle": "Vent fort, tempête de sable",
+    "effet": "baisse",
+    "portee": "province",
+    "donnees": "météo",
+    "detection_auto": true
+  },
+  {
+    "code": "2.5",
+    "famille": "Environnement",
+    "libelle": "Froid intense",
+    "effet": "variable",
+    "portee": "province",
+    "donnees": "météo",
+    "detection_auto": true
+  },
+  {
+    "code": "2.7",
+    "famille": "Environnement",
+    "libelle": "Piste impraticable, transport suspendu",
+    "effet": "baisse",
+    "portee": "unité",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "2.8",
+    "famille": "Environnement",
+    "libelle": "Éloignement de la population, douars dispersés",
+    "effet": "niveau bas permanent",
+    "portee": "unité",
+    "donnees": "population",
+    "detection_auto": true
+  },
+  {
+    "code": "3.1",
+    "famille": "Santé de la population",
+    "libelle": "Saison des infections respiratoires",
+    "effet": "hausse",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "3.3",
+    "famille": "Santé de la population",
+    "libelle": "Épidémie locale",
+    "effet": "hausse",
+    "portee": "unité / province",
+    "donnees": "diagnostics",
+    "detection_auto": false
+  },
+  {
+    "code": "3.5",
+    "famille": "Santé de la population",
+    "libelle": "Campagne de vaccination",
+    "effet": "hausse des actes",
+    "portee": "unité / province",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "3.6",
+    "famille": "Santé de la population",
+    "libelle": "Campagne de dépistage",
+    "effet": "hausse",
+    "portee": "national / province",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "4.1",
+    "famille": "Offre de soins",
+    "libelle": "Médecin absent (congé, maladie, formation)",
+    "effet": "baisse à 0 ou forte",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "4.2",
+    "famille": "Offre de soins",
+    "libelle": "Infirmier ou agent d'accueil absent",
+    "effet": "baisse des admissions",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "4.3",
+    "famille": "Offre de soins",
+    "libelle": "Spécialiste indisponible",
+    "effet": "baisse des télé-expertises",
+    "portee": "unité / national",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "4.4",
+    "famille": "Offre de soins",
+    "libelle": "Panne de connexion (satellite, 4G)",
+    "effet": "hausse du hors ligne",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "4.5",
+    "famille": "Offre de soins",
+    "libelle": "Panne de matériel ou d'électricité",
+    "effet": "baisse à 0",
+    "portee": "unité",
+    "donnees": "terrain",
+    "detection_auto": true
+  },
+  {
+    "code": "4.6",
+    "famille": "Offre de soins",
+    "libelle": "Unité déplacée vers un autre douar",
+    "effet": "variable entre unités",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "4.7",
+    "famille": "Offre de soins",
+    "libelle": "Véhicule, carburant, logistique",
+    "effet": "baisse à 0",
+    "portee": "unité",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "4.8",
+    "famille": "Offre de soins",
+    "libelle": "Rupture de médicaments ou de consommables",
+    "effet": "baisse progressive",
+    "portee": "unité / province",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "4.9",
+    "famille": "Offre de soins",
+    "libelle": "Grève des personnels",
+    "effet": "baisse",
+    "portee": "national / province",
+    "donnees": "presse",
+    "detection_auto": false
+  },
+  {
+    "code": "4.10",
+    "famille": "Offre de soins",
+    "libelle": "Horaires réduits",
+    "effet": "baisse",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "4.11",
+    "famille": "Offre de soins",
+    "libelle": "Ouverture, montée en charge",
+    "effet": "hausse progressive",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "4.12",
+    "famille": "Offre de soins",
+    "libelle": "Fermeture ou transfert de l'unité",
+    "effet": "baisse à 0 définitive",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "5.1",
+    "famille": "Accès et demande",
+    "libelle": "Saison agricole (olives, céréales, safran, dattes)",
+    "effet": "baisse saisonnière",
+    "portee": "province",
+    "donnees": "calendrier agricole",
+    "detection_auto": false
+  },
+  {
+    "code": "5.3",
+    "famille": "Accès et demande",
+    "libelle": "Caravane médicale à proximité",
+    "effet": "variable",
+    "portee": "unité",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "5.4",
+    "famille": "Accès et demande",
+    "libelle": "Nouvelle structure de santé à proximité",
+    "effet": "baisse durable",
+    "portee": "unité",
+    "donnees": "carte sanitaire",
+    "detection_auto": false
+  },
+  {
+    "code": "5.6",
+    "famille": "Accès et demande",
+    "libelle": "Communication, sensibilisation",
+    "effet": "hausse",
+    "portee": "unité",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "5.7",
+    "famille": "Accès et demande",
+    "libelle": "Confiance, satisfaction des patients",
+    "effet": "variable lente",
+    "portee": "unité",
+    "donnees": "avis patients",
+    "detection_auto": false
+  },
+  {
+    "code": "6.1",
+    "famille": "Événement",
+    "libelle": "Catastrophe naturelle",
+    "effet": "hausse puis retour",
+    "portee": "province",
+    "donnees": "presse",
+    "detection_auto": false
+  },
+  {
+    "code": "6.2",
+    "famille": "Événement",
+    "libelle": "Grand événement sportif (CAN 2025)",
+    "effet": "baisse aux heures de match",
+    "portee": "national",
+    "donnees": "calendrier",
+    "detection_auto": false
+  },
+  {
+    "code": "6.4",
+    "famille": "Événement",
+    "libelle": "Deuil ou événement local",
+    "effet": "baisse",
+    "portee": "unité",
+    "donnees": "terrain",
+    "detection_auto": false
+  },
+  {
+    "code": "6.5",
+    "famille": "Événement",
+    "libelle": "Panne nationale de la plateforme",
+    "effet": "baisse à 0",
+    "portee": "national",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "7.1",
+    "famille": "Saisie",
+    "libelle": "Saisie hors ligne pas encore synchronisée",
+    "effet": "baisse provisoire",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "7.2",
+    "famille": "Saisie",
+    "libelle": "Consultations de test ou de formation",
+    "effet": "hausse artificielle",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "7.4",
+    "famille": "Saisie",
+    "libelle": "Doublons",
+    "effet": "hausse des consultations",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "7.6",
+    "famille": "Saisie",
+    "libelle": "Admissions non saisies",
+    "effet": "baisse des admissions seulement",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": true
+  },
+  {
+    "code": "7.8",
+    "famille": "Saisie",
+    "libelle": "Station réaffectée à une autre unité",
+    "effet": "variable entre unités",
+    "portee": "unité",
+    "donnees": "base",
+    "detection_auto": false
+  },
+  {
+    "code": "X",
+    "famille": "Inconnue",
+    "libelle": "Cause non identifiée : enquête terrain",
+    "effet": "—",
+    "portee": "—",
+    "donnees": "terrain",
+    "detection_auto": false
+  }
+]

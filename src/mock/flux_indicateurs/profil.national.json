@@ -1,0 +1,44 @@
+[
+  {
+    "dimension": "sexe",
+    "valeur": "Femme",
+    "patients": 150736,
+    "part_pct": 58
+  },
+  {
+    "dimension": "sexe",
+    "valeur": "Homme",
+    "patients": 109153,
+    "part_pct": 42
+  },
+  {
+    "dimension": "age",
+    "valeur": "Moins de 5 ans",
+    "patients": 28588,
+    "part_pct": 11
+  },
+  {
+    "dimension": "age",
+    "valeur": "5 à 14 ans",
+    "patients": 31187,
+    "part_pct": 12
+  },
+  {
+    "dimension": "age",
+    "valeur": "15 à 49 ans",
+    "patients": 101357,
+    "part_pct": 39
+  },
+  {
+    "dimension": "age",
+    "valeur": "50 à 64 ans",
+    "patients": 51978,
+    "part_pct": 20
+  },
+  {
+    "dimension": "age",
+    "valeur": "65 ans et plus",
+    "patients": 46780,
+    "part_pct": 18
+  }
+]

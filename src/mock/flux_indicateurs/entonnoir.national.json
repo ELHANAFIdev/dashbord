@@ -1,0 +1,10 @@
+[
+  {
+    "niveau": "national",
+    "admissions": 501853,
+    "patients_admis": 285878,
+    "consultations": 448083,
+    "patients_consultes": 259889,
+    "taux_consultes_sur_admis_pct": 90.9
+  }
+]

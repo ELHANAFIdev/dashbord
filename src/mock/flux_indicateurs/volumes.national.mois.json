@@ -1,0 +1,194 @@
+[
+  {
+    "periode": "2024-01",
+    "consultations": 24155,
+    "patients": 17150,
+    "nouveaux_patients": 6104
+  },
+  {
+    "periode": "2024-02",
+    "consultations": 19238,
+    "patients": 13659,
+    "nouveaux_patients": 5344
+  },
+  {
+    "periode": "2024-03",
+    "consultations": 21064,
+    "patients": 14955,
+    "nouveaux_patients": 5415
+  },
+  {
+    "periode": "2024-04",
+    "consultations": 25845,
+    "patients": 18350,
+    "nouveaux_patients": 7326
+  },
+  {
+    "periode": "2024-05",
+    "consultations": 23952,
+    "patients": 17006,
+    "nouveaux_patients": 5619
+  },
+  {
+    "periode": "2024-06",
+    "consultations": 26960,
+    "patients": 19142,
+    "nouveaux_patients": 7579
+  },
+  {
+    "periode": "2024-07",
+    "consultations": 28817,
+    "patients": 20460,
+    "nouveaux_patients": 7226
+  },
+  {
+    "periode": "2024-08",
+    "consultations": 26589,
+    "patients": 18878,
+    "nouveaux_patients": 6654
+  },
+  {
+    "periode": "2024-09",
+    "consultations": 27912,
+    "patients": 19818,
+    "nouveaux_patients": 7506
+  },
+  {
+    "periode": "2024-10",
+    "consultations": 31012,
+    "patients": 22019,
+    "nouveaux_patients": 7646
+  },
+  {
+    "periode": "2024-11",
+    "consultations": 27616,
+    "patients": 19607,
+    "nouveaux_patients": 6478
+  },
+  {
+    "periode": "2024-12",
+    "consultations": 29909,
+    "patients": 21235,
+    "nouveaux_patients": 7960
+  },
+  {
+    "periode": "2025-01",
+    "consultations": 28794,
+    "patients": 20444,
+    "nouveaux_patients": 7299
+  },
+  {
+    "periode": "2025-02",
+    "consultations": 22900,
+    "patients": 16259,
+    "nouveaux_patients": 5704
+  },
+  {
+    "periode": "2025-03",
+    "consultations": 24791,
+    "patients": 17602,
+    "nouveaux_patients": 5983
+  },
+  {
+    "periode": "2025-04",
+    "consultations": 30890,
+    "patients": 21932,
+    "nouveaux_patients": 7710
+  },
+  {
+    "periode": "2025-05",
+    "consultations": 28562,
+    "patients": 20279,
+    "nouveaux_patients": 7950
+  },
+  {
+    "periode": "2025-06",
+    "consultations": 31292,
+    "patients": 22217,
+    "nouveaux_patients": 7668
+  },
+  {
+    "periode": "2025-07",
+    "consultations": 33198,
+    "patients": 23571,
+    "nouveaux_patients": 8462
+  },
+  {
+    "periode": "2025-08",
+    "consultations": 30978,
+    "patients": 21994,
+    "nouveaux_patients": 7322
+  },
+  {
+    "periode": "2025-09",
+    "consultations": 33248,
+    "patients": 23606,
+    "nouveaux_patients": 8895
+  },
+  {
+    "periode": "2025-10",
+    "consultations": 35894,
+    "patients": 25485,
+    "nouveaux_patients": 8410
+  },
+  {
+    "periode": "2025-11",
+    "consultations": 33198,
+    "patients": 23571,
+    "nouveaux_patients": 8597
+  },
+  {
+    "periode": "2025-12",
+    "consultations": 35058,
+    "patients": 24891,
+    "nouveaux_patients": 9290
+  },
+  {
+    "periode": "2026-01",
+    "consultations": 36568,
+    "patients": 25963,
+    "nouveaux_patients": 8604
+  },
+  {
+    "periode": "2026-02",
+    "consultations": 29999,
+    "patients": 21299,
+    "nouveaux_patients": 7463
+  },
+  {
+    "periode": "2026-03",
+    "consultations": 33716,
+    "patients": 23938,
+    "nouveaux_patients": 8851
+  },
+  {
+    "periode": "2026-04",
+    "consultations": 38612,
+    "patients": 27415,
+    "nouveaux_patients": 9380
+  },
+  {
+    "periode": "2026-05",
+    "consultations": 36845,
+    "patients": 26160,
+    "nouveaux_patients": 9218
+  },
+  {
+    "periode": "2026-06",
+    "consultations": 40054,
+    "patients": 28438,
+    "nouveaux_patients": 10419
+  },
+  {
+    "periode": "2026-07",
+    "consultations": 42162,
+    "patients": 29935,
+    "nouveaux_patients": 11830
+  },
+  {
+    "periode": "2026-08",
+    "consultations": 17303,
+    "patients": 12285,
+    "nouveaux_patients": 4214
+  }
+]

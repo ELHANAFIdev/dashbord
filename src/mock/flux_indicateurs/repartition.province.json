@@ -1,0 +1,443 @@
+[
+  {
+    "niveau": "El Kelâa des Sraghna",
+    "centres": 1,
+    "consultations": 6812,
+    "patients": 3951,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 23,
+    "rang": 1
+  },
+  {
+    "niveau": "Safi",
+    "centres": 1,
+    "consultations": 6752,
+    "patients": 3916,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 22.8,
+    "rang": 2
+  },
+  {
+    "niveau": "Youssoufia",
+    "centres": 1,
+    "consultations": 6556,
+    "patients": 3802,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 22.1,
+    "rang": 3
+  },
+  {
+    "niveau": "Al Haouz",
+    "centres": 5,
+    "consultations": 31682,
+    "patients": 18376,
+    "jours_actifs": 1480,
+    "consultations_par_jour_actif": 21.4,
+    "rang": 4
+  },
+  {
+    "niveau": "Essaouira",
+    "centres": 3,
+    "consultations": 18751,
+    "patients": 10876,
+    "jours_actifs": 888,
+    "consultations_par_jour_actif": 21.1,
+    "rang": 5
+  },
+  {
+    "niveau": "Chichaoua",
+    "centres": 2,
+    "consultations": 12255,
+    "patients": 7108,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 20.7,
+    "rang": 6
+  },
+  {
+    "niveau": "Ouezzane",
+    "centres": 1,
+    "consultations": 5964,
+    "patients": 3459,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 20.1,
+    "rang": 7
+  },
+  {
+    "niveau": "Fquih Ben Salah",
+    "centres": 1,
+    "consultations": 5917,
+    "patients": 3432,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 20,
+    "rang": 8
+  },
+  {
+    "niveau": "Khouribga",
+    "centres": 1,
+    "consultations": 5832,
+    "patients": 3383,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 19.7,
+    "rang": 9
+  },
+  {
+    "niveau": "Errachidia",
+    "centres": 3,
+    "consultations": 17327,
+    "patients": 10050,
+    "jours_actifs": 888,
+    "consultations_par_jour_actif": 19.5,
+    "rang": 10
+  },
+  {
+    "niveau": "Rehamna",
+    "centres": 1,
+    "consultations": 5721,
+    "patients": 3318,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 19.3,
+    "rang": 11
+  },
+  {
+    "niveau": "Azilal",
+    "centres": 4,
+    "consultations": 21703,
+    "patients": 12588,
+    "jours_actifs": 1184,
+    "consultations_par_jour_actif": 18.3,
+    "rang": 12
+  },
+  {
+    "niveau": "Tiznit",
+    "centres": 2,
+    "consultations": 10753,
+    "patients": 6237,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 18.2,
+    "rang": 13
+  },
+  {
+    "niveau": "Benslimane",
+    "centres": 1,
+    "consultations": 5194,
+    "patients": 3013,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 17.5,
+    "rang": 14
+  },
+  {
+    "niveau": "Ouarzazate",
+    "centres": 4,
+    "consultations": 17638,
+    "patients": 10230,
+    "jours_actifs": 1016,
+    "consultations_par_jour_actif": 17.4,
+    "rang": 15
+  },
+  {
+    "niveau": "Al Hoceïma",
+    "centres": 3,
+    "consultations": 15391,
+    "patients": 8927,
+    "jours_actifs": 888,
+    "consultations_par_jour_actif": 17.3,
+    "rang": 16
+  },
+  {
+    "niveau": "Khénifra",
+    "centres": 4,
+    "consultations": 20355,
+    "patients": 11806,
+    "jours_actifs": 1184,
+    "consultations_par_jour_actif": 17.2,
+    "rang": 17
+  },
+  {
+    "niveau": "Driouch",
+    "centres": 2,
+    "consultations": 10063,
+    "patients": 5837,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 17,
+    "rang": 18
+  },
+  {
+    "niveau": "Chefchaouen",
+    "centres": 3,
+    "consultations": 14773,
+    "patients": 8568,
+    "jours_actifs": 888,
+    "consultations_par_jour_actif": 16.6,
+    "rang": 19
+  },
+  {
+    "niveau": "Tinghir",
+    "centres": 4,
+    "consultations": 17052,
+    "patients": 9890,
+    "jours_actifs": 1063,
+    "consultations_par_jour_actif": 16,
+    "rang": 20
+  },
+  {
+    "niveau": "Chtouka-Aït Baha",
+    "centres": 2,
+    "consultations": 9417,
+    "patients": 5462,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 15.9,
+    "rang": 21
+  },
+  {
+    "niveau": "Agadir Ida-Outanane",
+    "centres": 2,
+    "consultations": 9352,
+    "patients": 5424,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 15.8,
+    "rang": 22
+  },
+  {
+    "niveau": "Moulay Yacoub",
+    "centres": 1,
+    "consultations": 4579,
+    "patients": 2656,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 15.5,
+    "rang": 23
+  },
+  {
+    "niveau": "Midelt",
+    "centres": 2,
+    "consultations": 9121,
+    "patients": 5290,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 15.4,
+    "rang": 24
+  },
+  {
+    "niveau": "Sidi Slimane",
+    "centres": 1,
+    "consultations": 4550,
+    "patients": 2639,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 15.4,
+    "rang": 25
+  },
+  {
+    "niveau": "Larache",
+    "centres": 1,
+    "consultations": 4503,
+    "patients": 2612,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 15.2,
+    "rang": 26
+  },
+  {
+    "niveau": "Settat",
+    "centres": 2,
+    "consultations": 9005,
+    "patients": 5223,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 15.2,
+    "rang": 27
+  },
+  {
+    "niveau": "Jerada",
+    "centres": 2,
+    "consultations": 8791,
+    "patients": 5099,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 14.8,
+    "rang": 28
+  },
+  {
+    "niveau": "Béni Mellal",
+    "centres": 2,
+    "consultations": 8421,
+    "patients": 4884,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 14.2,
+    "rang": 29
+  },
+  {
+    "niveau": "Khémisset",
+    "centres": 3,
+    "consultations": 12637,
+    "patients": 7329,
+    "jours_actifs": 888,
+    "consultations_par_jour_actif": 14.2,
+    "rang": 30
+  },
+  {
+    "niveau": "Taounate",
+    "centres": 2,
+    "consultations": 8325,
+    "patients": 4829,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 14.1,
+    "rang": 31
+  },
+  {
+    "niveau": "Boulemane",
+    "centres": 3,
+    "consultations": 12449,
+    "patients": 7220,
+    "jours_actifs": 888,
+    "consultations_par_jour_actif": 14,
+    "rang": 32
+  },
+  {
+    "niveau": "Kénitra",
+    "centres": 1,
+    "consultations": 4119,
+    "patients": 2389,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 13.9,
+    "rang": 33
+  },
+  {
+    "niveau": "Tata",
+    "centres": 2,
+    "consultations": 7852,
+    "patients": 4554,
+    "jours_actifs": 588,
+    "consultations_par_jour_actif": 13.4,
+    "rang": 34
+  },
+  {
+    "niveau": "Taroudant",
+    "centres": 4,
+    "consultations": 15386,
+    "patients": 8924,
+    "jours_actifs": 1184,
+    "consultations_par_jour_actif": 13,
+    "rang": 35
+  },
+  {
+    "niveau": "Figuig",
+    "centres": 4,
+    "consultations": 14604,
+    "patients": 8470,
+    "jours_actifs": 1184,
+    "consultations_par_jour_actif": 12.3,
+    "rang": 36
+  },
+  {
+    "niveau": "Sidi Kacem",
+    "centres": 2,
+    "consultations": 6887,
+    "patients": 3994,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 11.6,
+    "rang": 37
+  },
+  {
+    "niveau": "Berrechid",
+    "centres": 1,
+    "consultations": 3253,
+    "patients": 1887,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 11,
+    "rang": 38
+  },
+  {
+    "niveau": "Sidi Bennour",
+    "centres": 1,
+    "consultations": 3267,
+    "patients": 1895,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 11,
+    "rang": 39
+  },
+  {
+    "niveau": "El Jadida",
+    "centres": 2,
+    "consultations": 5891,
+    "patients": 3417,
+    "jours_actifs": 576,
+    "consultations_par_jour_actif": 10.2,
+    "rang": 40
+  },
+  {
+    "niveau": "Tétouan",
+    "centres": 1,
+    "consultations": 2973,
+    "patients": 1724,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 10,
+    "rang": 41
+  },
+  {
+    "niveau": "Taourirt",
+    "centres": 2,
+    "consultations": 5818,
+    "patients": 3374,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 9.8,
+    "rang": 42
+  },
+  {
+    "niveau": "Zagora",
+    "centres": 3,
+    "consultations": 6820,
+    "patients": 3956,
+    "jours_actifs": 734,
+    "consultations_par_jour_actif": 9.3,
+    "rang": 43
+  },
+  {
+    "niveau": "Taza",
+    "centres": 2,
+    "consultations": 4933,
+    "patients": 2861,
+    "jours_actifs": 592,
+    "consultations_par_jour_actif": 8.3,
+    "rang": 44
+  },
+  {
+    "niveau": "Sefrou",
+    "centres": 1,
+    "consultations": 2240,
+    "patients": 1299,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 7.6,
+    "rang": 45
+  },
+  {
+    "niveau": "Ifrane",
+    "centres": 1,
+    "consultations": 2209,
+    "patients": 1281,
+    "jours_actifs": 296,
+    "consultations_par_jour_actif": 7.5,
+    "rang": 46
+  },
+  {
+    "niveau": "El Hajeb",
+    "centres": 1,
+    "consultations": 1430,
+    "patients": 829,
+    "jours_actifs": 276,
+    "consultations_par_jour_actif": 5.2,
+    "rang": 47
+  },
+  {
+    "niveau": "Guercif",
+    "centres": 1,
+    "consultations": 1429,
+    "patients": 829,
+    "jours_actifs": 280,
+    "consultations_par_jour_actif": 5.1,
+    "rang": 48
+  },
+  {
+    "niveau": "Nador",
+    "centres": 1,
+    "consultations": 1331,
+    "patients": 772,
+    "jours_actifs": 276,
+    "consultations_par_jour_actif": 4.8,
+    "rang": 49
+  }
+]

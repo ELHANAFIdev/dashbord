@@ -1,0 +1,20 @@
+[
+  {
+    "periode": "2024",
+    "consultations": 313069,
+    "patients": 137813,
+    "nouveaux_patients": 80857
+  },
+  {
+    "periode": "2025",
+    "consultations": 368803,
+    "patients": 162348,
+    "nouveaux_patients": 93290
+  },
+  {
+    "periode": "2026",
+    "consultations": 275259,
+    "patients": 121168,
+    "nouveaux_patients": 69979
+  }
+]

@@ -1,36 +1,62 @@
-import { CentreCategory } from './types';
+import type { Category } from './types';
 
-export const DATE_REFERENCE = '2026-08-13';
+/** Dernier jour de la copie figée des données. */
+export const DATA_DAY = '2026-08-13';
+/** Fenêtre d'analyse de la fiche unité et des anomalies. */
+export const DETAIL_FROM = '2026-05-15';
+export const DETAIL_TO = DATA_DAY;
+/** Douze derniers mois complets. */
+export const YEAR_FROM = '2025-08-01';
+export const YEAR_TO = '2026-07-31';
+export const TARGET_PER_DAY = 21;
 
-export const CATEGORY_COLORS: Record<CentreCategory, { bg: string; text: string; hex: string; label: string; border: string }> = {
-  A: { bg: 'bg-[#1b7f3b]/15', text: 'text-[#1b7f3b]', hex: '#1b7f3b', label: 'Cible atteinte (>21)', border: 'border-[#1b7f3b]' },
-  B: { bg: 'bg-[#6aa84f]/15', text: 'text-[#6aa84f]', hex: '#6aa84f', label: 'Bon niveau (17–21)', border: 'border-[#6aa84f]' },
-  C: { bg: 'bg-[#d4a017]/15', text: 'text-[#d4a017]', hex: '#d4a017', label: 'Moyen (13–17)', border: 'border-[#d4a017]' },
-  D: { bg: 'bg-[#e07b00]/15', text: 'text-[#e07b00]', hex: '#e07b00', label: 'À surveiller (8–13)', border: 'border-[#e07b00]' },
-  E: { bg: 'bg-[#c0392b]/15', text: 'text-[#c0392b]', hex: '#c0392b', label: 'Critique (<8)', border: 'border-[#c0392b]' },
-  N: { bg: 'bg-[#5b7db1]/15', text: 'text-[#5b7db1]', hex: '#5b7db1', label: 'Nouveau centre', border: 'border-[#5b7db1]' },
-  X: { bg: 'bg-[#9e9e9e]/15', text: 'text-[#9e9e9e]', hex: '#9e9e9e', label: 'Données insuffisantes', border: 'border-[#9e9e9e]' },
+export const CATEGORIES_MAIN: Category[] = ['A', 'B', 'C', 'D', 'E'];
+export const CATEGORIES_ALL: Category[] = ['A', 'B', 'C', 'D', 'E', 'N', 'X'];
+
+export const CATEGORY_INFO: Record<Category, { label: string; range: string }> = {
+  A: { label: 'Cible atteinte', range: '21 et plus par jour' },
+  B: { label: 'Proche de la cible', range: '17 à 21 par jour' },
+  C: { label: 'Intermédiaire', range: '13 à 17 par jour' },
+  D: { label: 'Faible', range: '8 à 13 par jour' },
+  E: { label: 'Très faible', range: 'moins de 8 par jour' },
+  N: { label: 'Nouvelle unité', range: 'historique trop court' },
+  X: { label: 'Données insuffisantes', range: 'non classée' },
 };
 
-export const ACK_CAUSES = [
-  'Souk hebdomadaire local',
-  'Conditions météo défavorables (neige / canicule / crue)',
-  'Fête locale / Moussem / Circoncision collective',
-  'Panne de groupe électrogène ou alimentation',
-  'Absence inopinée du médecin / congé maladie',
-  'Panne liaison satellite VSAT / Télécom',
-  'Campagne de vaccination extérieure',
-  'Autre motif justifié'
-];
+export const catColor = (c: string) => `var(--cat-${(c || 'x').toLowerCase()})`;
+export const catInk = (c: string) => `var(--cat-${(c || 'x').toLowerCase()}-ink)`;
 
-export const REGIONS_MOROCCO = [
-  "Toutes les régions",
-  "Région de Drâa-Tafilalet",
-  "Région de l'Oriental",
-  "Région de Béni Mellal-Khénifra",
-  "Région de Marrakech-Safi",
-  "Région de Souss-Massa",
-  "Région de Tanger-Tétouan-Al Hoceïma",
-  "Région de Fès-Meknès",
-  "Région de Guelmim-Oued Noun"
-];
+export const SIGNAL_LABELS: Record<string, string> = {
+  SILENT_CENTRE: 'Unité silencieuse',
+  DAY_ANOMALY: 'Journée anormale',
+  DAY_HIGH: 'Journée anormalement haute',
+  TREND_DROP: 'Baisse durable',
+  LOW_LEVEL: 'Niveau sous la cible',
+  NETWORK_SILENCE: 'Silence du réseau',
+};
+export const signalLabel = (s: string | null | undefined) => (s ? SIGNAL_LABELS[s] ?? s.replace(/_/g, ' ').toLowerCase() : '');
+
+export const SEVERITY_LABELS: Record<string, string> = { high: 'Urgente', medium: 'À traiter', low: 'Information' };
+export const EVENT_STATUS_LABELS: Record<string, string> = { open: 'Ouverte', explained: 'Expliquée', resolved: 'Résolue' };
+
+export const ANOMALY_TYPE_LABELS: Record<string, string> = {
+  consultations_basses: 'Consultations basses',
+  consultations_hautes: 'Consultations hautes',
+  ecart_admissions: 'Écart admissions / consultations',
+};
+export const ANOMALY_STATUS_LABELS: Record<string, string> = {
+  a_enqueter: 'À enquêter',
+  explique: 'Expliqué',
+  confirme: 'Confirmé',
+  ecarte: 'Écarté',
+};
+export const EVOLUTION_STATUS_LABELS: Record<string, string> = {
+  croissance: 'Croissance',
+  stable: 'Stable',
+  declin: 'Déclin',
+  a_risque: 'À risque',
+  nouveau: 'Nouveau',
+  inactif: 'Inactif',
+};
+
+export const CONFIANCE_LABELS: Record<string, string> = { forte: 'Confiance forte', moyenne: 'Confiance moyenne', faible: 'Confiance faible', aucune: 'Aucune piste' };

@@ -1,0 +1,83 @@
+[
+  {
+    "niveau": "Marrakech-Safi",
+    "centres": 14,
+    "consultations": 88529,
+    "patients": 51347,
+    "jours_actifs": 4144,
+    "consultations_par_jour_actif": 21.4,
+    "rang": 1
+  },
+  {
+    "niveau": "Béni Mellal-Khénifra",
+    "centres": 12,
+    "consultations": 62228,
+    "patients": 36092,
+    "jours_actifs": 3552,
+    "consultations_par_jour_actif": 17.5,
+    "rang": 2
+  },
+  {
+    "niveau": "Tanger-Tétouan-Al Hoceïma",
+    "centres": 9,
+    "consultations": 43604,
+    "patients": 25290,
+    "jours_actifs": 2664,
+    "consultations_par_jour_actif": 16.4,
+    "rang": 3
+  },
+  {
+    "niveau": "Drâa-Tafilalet",
+    "centres": 16,
+    "consultations": 67958,
+    "patients": 39416,
+    "jours_actifs": 4293,
+    "consultations_par_jour_actif": 15.8,
+    "rang": 4
+  },
+  {
+    "niveau": "Souss-Massa",
+    "centres": 12,
+    "consultations": 52760,
+    "patients": 30601,
+    "jours_actifs": 3548,
+    "consultations_par_jour_actif": 14.9,
+    "rang": 5
+  },
+  {
+    "niveau": "Rabat-Salé-Kénitra",
+    "centres": 7,
+    "consultations": 28193,
+    "patients": 16352,
+    "jours_actifs": 2072,
+    "consultations_par_jour_actif": 13.6,
+    "rang": 6
+  },
+  {
+    "niveau": "Casablanca-Settat",
+    "centres": 7,
+    "consultations": 26610,
+    "patients": 15434,
+    "jours_actifs": 2056,
+    "consultations_par_jour_actif": 12.9,
+    "rang": 7
+  },
+  {
+    "niveau": "L'Oriental",
+    "centres": 12,
+    "consultations": 42036,
+    "patients": 24381,
+    "jours_actifs": 3516,
+    "consultations_par_jour_actif": 12,
+    "rang": 8
+  },
+  {
+    "niveau": "Fès-Meknès",
+    "centres": 11,
+    "consultations": 36165,
+    "patients": 20976,
+    "jours_actifs": 3236,
+    "consultations_par_jour_actif": 11.2,
+    "rang": 9
+  }
+]
